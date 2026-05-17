@@ -1,5 +1,5 @@
-streamlit
+requests
+beautifulsoup4
 pandas
-matplotlib
-seaborn
-numpy
+pytest
+pytest-cov
