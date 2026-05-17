@@ -1,0 +1,14 @@
+## CARA MENJALANKAN SKRIP ETL PIPELINE:
+1. Ekstrak file zip.
+2. Pastikan file 'google-sheets-api.json' ada di root folder (jika ingin menggunakan Google Sheets).
+3. Instal library: pip install -r requirements.txt
+4. Jalankan perintah: python main.py
+
+## CARA MENJALANKAN UNIT TEST:
+1. Jalankan perintah: pytest
+
+## CARA MENJALANKAN TEST COVERAGE:
+1. Jalankan perintah: pytest --cov=utils tests/
+
+## URL GOOGLE SHEETS:
+https://docs.google.com/spreadsheets/d/
