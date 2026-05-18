@@ -9,8 +9,6 @@ try:
     import pandas
 except ImportError:
     print("Installing required packages: requests, beautifulsoup4, pandas...")
-    !pip install requests beautifulsoup4 pandas --quiet
-    print("Packages installed.")
 
 # --- Start of utils module creation for self-containment ---
 
