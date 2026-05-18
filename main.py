@@ -281,9 +281,6 @@ with open('utils/transform.py', 'w') as f:
     f.write(transform_code)
 print("Created utils/transform.py")
 
-# Install BeautifulSoup for web scraping
-!pip install beautifulsoup4
-
 # Update utils/extract.py to use web scraping
 extract_code_for_scraping = """
 import requests
